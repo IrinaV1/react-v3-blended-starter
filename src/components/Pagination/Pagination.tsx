@@ -1,6 +1,7 @@
 import type { ComponentType } from "react";
 import ReactPaginateModule from "react-paginate";
 import type { ReactPaginateProps } from "react-paginate";
+import css from "./Pagination.module.css";
 
 // Допоміжний тип: описує модуль, у якого реальний експорт лежить у полі `.default`.
 type ModuleWithDefault<T> = { default: T };
