@@ -3,9 +3,22 @@ import toast from "react-hot-toast";
 
 import style from "./Form.module.css";
 
-export default function Form() {
+interface FormProps {
+  onSubmit: (value: string) => void;
+}
+export default function Form({ onSubmit }: FormProps) {
+  function handleSubmit(formData: FormData) {
+    const value = formData.get("search") as string;
+    if (!value || value.trim() === "") {
+      console.log(0);
+      toast("Please enter your search query.");
+      return;
+    }
+    onSubmit(value.trim());
+    console.log(value);
+  }
   return (
-    <form className={style.form}>
+    <form action={handleSubmit} className={style.form}>
       <input
         className={style.input}
         placeholder="What do you want to write?"
@@ -13,7 +26,7 @@ export default function Form() {
         autoFocus
       />
 
-      <button className={style.button} type="submit">
+      <button className={style.button} type="submit" aria-label="submit">
         <FiSearch size="16px" />
       </button>
     </form>
