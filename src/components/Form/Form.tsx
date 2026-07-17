@@ -8,14 +8,14 @@ interface FormProps {
 }
 export default function Form({ onSubmit }: FormProps) {
   function handleSubmit(formData: FormData) {
-    const value = formData.get("search") as string;
-    if (!value || value.trim() === "") {
+    const value = (formData.get("search") as string).trim();
+    if (value !== "") {
+      onSubmit(value);
+      console.log(value);
+    } else {
       console.log(0);
       toast("Please enter your search query.");
-      return;
     }
-    onSubmit(value.trim());
-    console.log(value);
   }
   return (
     <form action={handleSubmit} className={style.form}>
