@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(25px);
+  /* backdrop-filter: blur(25px); */
   border-bottom: 1px solid #368a01;
 }
 

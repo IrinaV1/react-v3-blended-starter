@@ -1,6 +1,8 @@
 import type { ComponentType } from 'react';
-import ReactPaginateModule from 'react-paginate';
+// import ReactPaginateModule from 'react-paginate';
+import * as ReactPaginateModule from 'react-paginate';
 import type { ReactPaginateProps } from 'react-paginate';
+import css from './Pagination.module.css';
 
 // Допоміжний тип: описує модуль, у якого реальний експорт лежить у полі `.default`.
 type ModuleWithDefault<T> = { default: T };
@@ -19,6 +21,8 @@ interface PaginationProps {
 }
 
 export default function Pagination({ totalPages, currentPage, onPageChange }: PaginationProps) {
+ console.log(typeof ReactPaginate);
+ console.log(ReactPaginate);
   return (
     <ReactPaginate
       pageCount={totalPages}
