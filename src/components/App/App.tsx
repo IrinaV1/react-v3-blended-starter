@@ -6,30 +6,37 @@ import PhotosGallery from "../PhotosGallery/PhotosGallery";
 import Loader from "../Loader/Loader";
 import { useState } from "react";
 import Text from "../Text/Text";
+import type { Photo } from "../../types/photo";
+import toast from "react-hot-toast";
 
 export default function App() {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [photos, setPhotos] = useState<Photo[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState<string | null>(null);
   async function handleSearch(query: string) {
     try {
-      setError(null);
-      setLoading(true);
+      setIsError(null);
+      setIsLoading(true);
       const data = await getPhotos(query);
-      console.log(data);
-    } catch (error) {
-      setError("Something went wrong");
+      if (data.length === 0) {
+        toast.error("Photos not found!");
+        return;
+      }
+      setPhotos(data);
+    } catch {
+      setIsError("Something went wrong");
     } finally {
-      setLoading(false);
+      setIsLoading(false);
     }
   }
   return (
     <>
       <Section>
         <Container>
-          {loading && <Loader />}
-          {error && <Text>{error}</Text>}
+          {isLoading && <Loader />}
+          {isError && <Text>{`Something went wrong`}</Text>}
           <Form onSubmit={handleSearch} />
-          <PhotosGallery />
+          {photos.length > 0 && <PhotosGallery photos={photos} />}
         </Container>
       </Section>
     </>

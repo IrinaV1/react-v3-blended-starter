@@ -7,6 +7,7 @@ axios.defaults.headers.common["Authorization"] = API_KEY;
 axios.defaults.params = {
   orientation: "landscape",
 };
+
 interface PhotoResponse {
   photos: Photo[];
 }

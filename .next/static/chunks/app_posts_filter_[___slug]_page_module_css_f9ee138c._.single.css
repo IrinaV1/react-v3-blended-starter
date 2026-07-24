@@ -1,0 +1,57 @@
+/* [project]/app/posts/filter/[...slug]/page.module.css [app-client] (css) */
+.page-module__RpN72q__app {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 40px 40px 80px;
+  display: flex;
+}
+
+.page-module__RpN72q__main {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.page-module__RpN72q__postsSection {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.page-module__RpN72q__toolbar {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.page-module__RpN72q__button {
+  color: #fff;
+  cursor: pointer;
+  background: #368a01;
+  border: 1px solid #368a01;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  padding: 8px 24px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+
+.page-module__RpN72q__button:hover {
+  border: 1px solid #fff;
+}
+
+/*# sourceMappingURL=app_posts_filter_%5B___slug%5D_page_module_css_f9ee138c._.single.css.map*/

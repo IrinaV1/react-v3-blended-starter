@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/posts/filter/layout.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"layout-module__QEfXtW__container\",\n  \"postsWrapper\": \"layout-module__QEfXtW__postsWrapper\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file://D%3A/projects/react-v3-blended-starter/app/posts/filter/layout.tsx"],"sourcesContent":["import css from './layout.module.css';\r\n\r\ntype LayoutPostsProps = {\r\n  children: React.ReactNode;\r\n};\r\n\r\nexport default function LayoutPosts({ children }: LayoutPostsProps) {\r\n  return (\r\n    <main className={css.container}>\r\n      <div className={css.postsWrapper}>{children}</div>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAMe,SAAS,YAAY,EAAE,QAAQ,EAAoB;IAChE,qBACE,8OAAC;QAAK,WAAW,4IAAA,CAAA,UAAG,CAAC,SAAS;kBAC5B,cAAA,8OAAC;YAAI,WAAW,4IAAA,CAAA,UAAG,CAAC,YAAY;sBAAG;;;;;;;;;;;AAGzC","debugId":null}}]
+}

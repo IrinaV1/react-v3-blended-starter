@@ -1,0 +1,23 @@
+/* [project]/components/SearchBox/SearchBox.module.css [app-client] (css) */
+.SearchBox-module__izN5UG__input {
+  color: #fff;
+  background-color: #0000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  align-items: center;
+  width: 240px;
+  height: 44px;
+  padding: 8px 24px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+
+.SearchBox-module__izN5UG__input::placeholder {
+  color: #fff;
+}
+
+/*# sourceMappingURL=components_SearchBox_SearchBox_module_css_f9ee138c._.single.css.map*/

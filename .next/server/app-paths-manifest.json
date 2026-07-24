@@ -1,0 +1,6 @@
+{
+  "/@modal/(.)posts/[id]/page": "app/@modal/(.)posts/[id]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/posts/[id]/page": "app/posts/[id]/page.js",
+  "/posts/filter/[...slug]/page": "app/posts/filter/[...slug]/page.js"
+}

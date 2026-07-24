@@ -1,0 +1,107 @@
+/* [project]/app/@modal/(.)posts/[id]/PostPreview.module.css [app-client] (css) */
+.PostPreview-module__URIjxG__item {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 40px;
+  display: flex;
+}
+
+.PostPreview-module__URIjxG__header {
+  border-bottom: 1px solid #368a01;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 4px;
+  display: flex;
+}
+
+.PostPreview-module__URIjxG__header h2 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PostPreview-module__URIjxG__content {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PostPreview-module__URIjxG__post {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.PostPreview-module__URIjxG__wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 520px;
+  display: flex;
+}
+
+.PostPreview-module__URIjxG__date {
+  color: #fff;
+  text-align: right;
+  margin-left: auto;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PostPreview-module__URIjxG__user {
+  color: #fff;
+  border: 1px solid #368a01;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  margin-left: auto;
+  padding: 4px 12px;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+
+.PostPreview-module__URIjxG__backBtn {
+  color: #fff;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 16%;
+  text-underline-position: from-font;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  border-radius: 8px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 44px;
+  padding: 8px 24px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4.5%;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_%40modal_%28_%29posts_%5Bid%5D_PostPreview_module_css_f9ee138c._.single.css.map*/

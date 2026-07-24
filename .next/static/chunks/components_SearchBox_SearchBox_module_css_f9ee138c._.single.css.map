@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/SearchBox/SearchBox.module.css"],"sourcesContent":[".input {\r\n  border-radius: 8px;\r\n  border: 1px solid #fff;\r\n  display: flex;\r\n  width: 240px;\r\n  height: 44px;\r\n  padding: 8px 24px;\r\n  align-items: center;\r\n  background-color: transparent;\r\n  color: #fff;\r\n  font-family: 'Open Sans';\r\n  font-size: 16px;\r\n  font-style: normal;\r\n  font-weight: 600;\r\n  line-height: normal;\r\n}\r\n\r\n.input::placeholder {\r\n  color: #fff;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;AAiBA"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/posts/filter/[...slug]/page.module.css"],"sourcesContent":[".app {\r\n  display: flex;\r\n  padding: 40px 40px 80px 40px;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  gap: 24px;\r\n  flex: 1 0 0;\r\n}\r\n\r\n.main {\r\n  display: flex;\r\n  width: 100%;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  flex: 1 0 0;\r\n}\r\n\r\n.postsSection {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  gap: 24px;\r\n  flex: 1 0 0;\r\n}\r\n\r\n.toolbar {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  align-self: stretch;\r\n  width: 100%;\r\n}\r\n\r\n.button {\r\n  color: #fff;\r\n  font-family: 'Open Sans';\r\n  font-size: 16px;\r\n  font-style: normal;\r\n  font-weight: 600;\r\n  line-height: normal;\r\n  border-radius: 8px;\r\n  background: #368a01;\r\n  display: flex;\r\n  height: 44px;\r\n  padding: 8px 24px;\r\n  justify-content: center;\r\n  align-items: center;\r\n  border: 1px solid #368a01;\r\n  cursor: pointer;\r\n}\r\n\r\n.button:hover {\r\n  border: 1px solid #fff;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;;AAQA;;;;;;;;AAQA;;;;;;;;AAQA;;;;;;;;;;;;;;;;;;AAkBA"}}]
+}

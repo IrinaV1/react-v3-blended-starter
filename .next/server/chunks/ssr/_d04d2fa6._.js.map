@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file://D%3A/projects/react-v3-blended-starter/app/%40modal/%28.%29posts/%5Bid%5D/page.tsx"],"sourcesContent":["import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';\r\n\r\nimport PostPreviewClient from './(.)posts/[id]/PostPreview.client';\r\n// import { fetchPostById } from '@/lib/api';\r\n\r\nexport default async function PostPreview({ params }: PostDetailsProps) {\r\n  return (\r\n    <HydrationBoundary state={dehydrate()}>\r\n      <PostPreviewClient />\r\n    </HydrationBoundary>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AAAA;;;;;;;;;AAKe,eAAe,YAAY,EAAE,MAAM,EAAoB;IACpE,qBACE,8OAAC,oLAAA,CAAA,oBAAiB;QAAC,OAAO,CAAA,GAAA,2KAAA,CAAA,YAAS,AAAD;kBAChC,cAAA,8OAAC;;;;;;;;;;AAGP","debugId":null}}]
+}
